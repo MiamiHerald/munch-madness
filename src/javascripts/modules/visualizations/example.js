@@ -8,7 +8,7 @@ import 'imports?define=>false!scrollmagic/scrollmagic/uncompressed/plugins/debug
 import pym from 'pym.js'
 
 const loadExample = () => {
-
+  // awesome code goes here
 }
 
 export { loadExample };
