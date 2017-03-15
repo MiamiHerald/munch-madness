@@ -89,6 +89,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "normalize.css": "^4.0.0"
+    "normalize.css": "^4.0.0",
+    "svg-pan-zoom": "github:ariutta/svg-pan-zoom"
   }
 }

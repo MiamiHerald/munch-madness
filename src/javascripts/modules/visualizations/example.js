@@ -8,14 +8,7 @@ import 'imports?define=>false!scrollmagic/scrollmagic/uncompressed/plugins/debug
 import pym from 'pym.js'
 
 const loadExample = () => {
-  console.log(`
-    jQuery: ${$},
-    d3: ${d3},
-    topojson: ${topojson},
-    TweenLite: ${TweenLite},
-    ScrollMagic: ${ScrollMagic},
-    pym: ${pym}
-  `);
+
 }
 
 export { loadExample };
