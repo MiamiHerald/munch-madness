@@ -13,7 +13,7 @@ const loadExample = () => {
 
     NUM_CONFETTI = 60;
 
-    COLORS = [[255, 255, 255], [255, 144, 0], [255, 255, 255], [255, 144, 0], [0, 277, 235]];
+    COLORS = [[255, 255, 255], [246, 145, 0], [255, 255, 255], [255, 144, 0], [0, 277, 235]];
 
     PI_2 = 2 * Math.PI;
 
@@ -33,6 +33,8 @@ const loadExample = () => {
     window.addEventListener('resize', resizeWindow, false);
 
     window.onload = function() {
+      window.iframeChild = new pym.Child();
+      iframeChild.sendHeight();
       return setTimeout(resizeWindow, 0);
     };
 
